@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_billie.mk
+    $(LOCAL_DIR)/derp_billie.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_billie-user \
-    aosp_billie-userdebug \
-    aosp_billie-eng
+    derp_billie-user \
+    derp_billie-userdebug \
+    derp_billie-eng

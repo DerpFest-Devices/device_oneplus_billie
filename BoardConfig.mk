@@ -20,6 +20,8 @@ DEVICE_PATH := device/oneplus/billie
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
+ BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -34,6 +36,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := billie,OnePlusNordN10
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
